@@ -1,0 +1,19 @@
+Python 2.7.14 |Anaconda, Inc.| (default, Nov  8 2017, 13:40:45) [MSC v.1500 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 5.4.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+
+#This python code prints a string given 'AcadGild' in reverse order
+#Input:AcadGild
+#Using a slice that steps -1
+' AcadGild'[::-1]
+Out[1]: 'dliGdacA '
+
+#More convenient approach of using join with a iterator to form a list
+''.join(reversed('AcadGild'))
+Out[2]: 'dliGdacA'
