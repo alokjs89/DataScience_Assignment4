@@ -1,0 +1,5 @@
+' AcadGild'[::-1]
+Out[1]: 'dliGdacA '
+
+''.join(reversed('AcadGild'))
+Out[2]: 'dliGdacA'
